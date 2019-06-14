@@ -9,7 +9,7 @@
         "framework",
         "php"
     ],
-    "homepage": "https://github.com/brunocfalcao/helpers",
+    "homepage": "https://github.com/brunocfalcao/nova-helpers",
     "license": "MIT",
     "authors": [
         {
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Brunocfalcao\\Helpers\\": "src"
+            "Brunocfalcao\\NovaHelpers\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Brunocfalcao\\Helpers\\Tests\\": "tests"
+            "Brunocfalcao\\NovaHelpers\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Brunocfalcao\\Helpers\\HelpersServiceProvider"
+                "Brunocfalcao\\NovaHelpers\\NovaHelpersServiceProvider"
             ]
         }
     }
