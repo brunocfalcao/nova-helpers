@@ -1,0 +1,12 @@
+/build
+/vendor
+/node_modules
+package-lock.json
+composer.phar
+composer.lock
+phpunit.xml
+mix-manifest.json
+npm-debug.log
+.env.*.php
+.env.php
+.env
