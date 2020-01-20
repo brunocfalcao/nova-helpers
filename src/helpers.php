@@ -9,23 +9,23 @@ function nova_current_view_context()
     $controller = Arr::last(explode('\\', $namespace));
 
     switch ($controller) {
-        case "ResourceIndexController":
+        case 'ResourceIndexController':
             return 'index';
             break;
 
-        case "ResourceShowController":
+        case 'ResourceShowController':
             return 'show';
             break;
 
-        case "ResourceDetailController":
+        case 'ResourceDetailController':
             return 'detail';
             break;
 
-        case "UpdateFieldController":
+        case 'UpdateFieldController':
             return 'update';
             break;
 
-        case "CreationFieldController":
+        case 'CreationFieldController':
             return 'create';
             break;
     }
