@@ -12,6 +12,10 @@ final class NovaHelpersServiceProvider extends ServiceProvider
         $this->registerMacros();
     }
 
+    public function register()
+    {
+    }
+
     private function registerMacros()
     {
         // Include all files from the Macros folder.
@@ -22,9 +26,5 @@ final class NovaHelpersServiceProvider extends ServiceProvider
                   ->each(function ($macro, $path) {
                       require_once $path;
                   });
-    }
-
-    public function register()
-    {
     }
 }
